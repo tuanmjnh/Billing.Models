@@ -1,0 +1,13 @@
+D:\Applications\Vinaphone\Billing.Models\bin\Release\Billing.Models.dll.config
+D:\Applications\Vinaphone\Billing.Models\bin\Release\Billing.Models.dll
+D:\Applications\Vinaphone\Billing.Models\bin\Release\Billing.Models.pdb
+D:\Applications\Vinaphone\Billing.Models\bin\Release\Dapper.Contrib.dll
+D:\Applications\Vinaphone\Billing.Models\bin\Release\Dapper.dll
+D:\Applications\Vinaphone\Billing.Models\bin\Release\EntityFramework.dll
+D:\Applications\Vinaphone\Billing.Models\bin\Release\EntityFramework.SqlServer.dll
+D:\Applications\Vinaphone\Billing.Models\bin\Release\Dapper.xml
+D:\Applications\Vinaphone\Billing.Models\bin\Release\EntityFramework.xml
+D:\Applications\Vinaphone\Billing.Models\bin\Release\EntityFramework.SqlServer.xml
+D:\Applications\Vinaphone\Billing.Models\obj\Release\Billing.Models.csproj.CoreCompileInputs.cache
+D:\Applications\Vinaphone\Billing.Models\obj\Release\Billing.Models.dll
+D:\Applications\Vinaphone\Billing.Models\obj\Release\Billing.Models.pdb
