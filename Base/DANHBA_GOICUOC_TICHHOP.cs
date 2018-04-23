@@ -32,6 +32,8 @@ namespace Billing.Models
         public int EXTRA_TYPE { get; set; }
         [StringLength(1024)]
         public string DETAILS { get; set; }
+		[StringLength(1024)]
+		public string EXTRAS { get; set; }
         public int FLAG { get; set; }
     }
 }

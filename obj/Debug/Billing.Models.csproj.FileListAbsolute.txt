@@ -13,3 +13,17 @@ D:\Applications\Vinaphone\Billing.Models\bin\Debug\Dapper.dll
 D:\Applications\Vinaphone\Billing.Models\bin\Debug\Dapper.xml
 D:\Applications\Vinaphone\Billing.Models\obj\Debug\Billing.Models.csprojResolveAssemblyReference.cache
 D:\Applications\Vinaphone\Billing.Models\obj\Debug\Billing.Models.csproj.CopyComplete
+D:\Applications\Vinaphone\Billing.Models\bin\Debug\Dapper.Contrib.xml
+D:\Applications\Vinaphone\Billing.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Applications\Vinaphone\Billing.Models\bin\Debug\System.Web.Helpers.dll
+D:\Applications\Vinaphone\Billing.Models\bin\Debug\System.Web.Mvc.dll
+D:\Applications\Vinaphone\Billing.Models\bin\Debug\System.Web.Razor.dll
+D:\Applications\Vinaphone\Billing.Models\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Applications\Vinaphone\Billing.Models\bin\Debug\System.Web.WebPages.dll
+D:\Applications\Vinaphone\Billing.Models\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Applications\Vinaphone\Billing.Models\bin\Debug\System.Web.Helpers.xml
+D:\Applications\Vinaphone\Billing.Models\bin\Debug\System.Web.Mvc.xml
+D:\Applications\Vinaphone\Billing.Models\bin\Debug\System.Web.Razor.xml
+D:\Applications\Vinaphone\Billing.Models\bin\Debug\System.Web.WebPages.xml
+D:\Applications\Vinaphone\Billing.Models\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Applications\Vinaphone\Billing.Models\bin\Debug\System.Web.WebPages.Razor.xml

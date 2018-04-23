@@ -31,6 +31,7 @@ namespace Billing.Models
         [StringLength(256)]
         public string UPDATEDBY { get; set; }
         public DateTime? UPDATEDAT { get; set; }
+        public string EXTRAS { get; set; }
         public int FLAG { get; set; }
     }
 }
