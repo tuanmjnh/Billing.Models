@@ -8,8 +8,8 @@
     [Table("ITEMS")]
     public partial class ITEMS
     {
-        //[Dapper.Contrib.Extensions.ExplicitKey]
-        public long ID { get; set; }
+        [Dapper.Contrib.Extensions.Key]
+        public long ITEMID { get; set; }
         [StringLength(256)]
         public string APPKEY { get; set; }
         [StringLength(512)]

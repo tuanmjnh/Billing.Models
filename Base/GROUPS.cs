@@ -8,8 +8,8 @@
     [Table("GROUPS")]
     public partial class GROUPS
     {
-        //[Dapper.Contrib.Extensions.ExplicitKey]
-        public long ID { get; set; }
+        [Dapper.Contrib.Extensions.Key]
+        public long GROUPID { get; set; }
         [StringLength(256)]
         public string APPKEY { get; set; }
         [StringLength(512)]

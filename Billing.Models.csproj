@@ -97,7 +97,7 @@
     <Compile Include="Base\HD_MERGIN.cs" />
     <Compile Include="Base\DANHBA_GOICUOC_TICHHOP.cs" />
     <Compile Include="Base\COLUMNS.cs" />
-    <Compile Include="Base\BANGGIACUOC.cs" />
+    <Compile Include="Base\BGCUOC.cs" />
     <Compile Include="Base\DANH_BA_KHACH_HANG.cs" />
     <Compile Include="Base\EXPORT_TABLE.cs" />
     <Compile Include="Base\HD_CD.cs" />

@@ -9,8 +9,8 @@
     {
         public MainContext() : base("name=MainContext") { }
         public virtual DbSet<FILE_MANAGER> FILE_MANAGER { get; set; }
-        public virtual DbSet<BANGGIACUOC> BANGGIACUOC { get; set; }
-        public virtual DbSet<DISCOUNT> DISCOUNT { get; set; }
+        public virtual DbSet<BGCUOC> BGCUOC { get; set; }
+        //public virtual DbSet<DISCOUNT> DISCOUNT { get; set; }
         //public virtual DbSet<BKN_GOICUOC_THANG> BKN_GOICUOC_THANG { get; set; }
         //public virtual DbSet<MYTV> MYTV { get; set; }
         //public virtual DbSet<NET> NET { get; set; }
