@@ -24,6 +24,8 @@ namespace Billing.Models
         public string TOC_DO { get; set; }
         [StringLength(1024)]
         public string GHICHU { get; set; }
+        public int TT_THANG { get; set; }
+        public int NGAY_TB { get; set; }
         public int LOAIHINHTB_ID { get; set; }
         [StringLength(256)]
         public string MA_LHTB { get; set; }
@@ -68,6 +70,7 @@ namespace Billing.Models
         public string MS_THUE { get; set; }
         [StringLength(256)]
         public string BANKNUMBER { get; set; }
+        public int DONVIQL_ID { get; set; }
         [StringLength(128)]
         public string MA_DVI { get; set; }
         [StringLength(128)]

@@ -4,8 +4,8 @@ namespace Billing.Models
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
-    [Table("DANH_BA_KHACH_HANG")]
-    public partial class DANH_BA_KHACH_HANG
+    [Table("DB_THANHTOAN_BKN")]
+    public partial class DB_THANHTOAN_BKN
     {
         [Dapper.Contrib.Extensions.ExplicitKey]
         public Guid ID { get; set; }
@@ -30,6 +30,7 @@ namespace Billing.Models
         public string MS_THUE { get; set; }
         [StringLength(256)]
         public string BANKNUMBER { get; set; }
+        public int DONVIQL_ID { get; set; }
         [StringLength(128)]
         public string MA_DVI { get; set; }
         [StringLength(128)]

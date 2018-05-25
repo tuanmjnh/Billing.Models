@@ -5,7 +5,7 @@ namespace Billing.Models
     using System.ComponentModel.DataAnnotations.Schema;
 
     [Table("EXPORT_HD_NET")]
-    public partial class EXPORT_HD_NET : DANH_BA_KHACH_HANG
+    public partial class EXPORT_HD_NET : DB_THANHTOAN_BKN
     {
         public Guid NET_ID { get; set; }
         public Guid DBKH_ID { get; set; }
