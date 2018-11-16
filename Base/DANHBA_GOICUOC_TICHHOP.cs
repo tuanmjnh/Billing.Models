@@ -8,7 +8,7 @@ namespace Billing.Models
     public partial class DANHBA_GOICUOC_TICHHOP
     {
         [Dapper.Contrib.Extensions.ExplicitKey]
-        public long ID { get; set; }
+        public Guid ID { get; set; }
         public DateTime TIME_BILL { get; set; }
         [StringLength(256)]
         public string MA_TB { get; set; }

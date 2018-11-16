@@ -13,7 +13,7 @@
         public string NAME { get; set; }
         [StringLength(128)]
         public string TABLE_NAME { get; set; }
-        [StringLength(512)]
+        [StringLength(1024)]
         public string TABLE_LIST { get; set; }
         public string QUERY_CREATE { get; set; }
         public string QUERY_SELECT { get; set; }
@@ -21,7 +21,14 @@
         public string QUERY_END { get; set; }
         [StringLength(2048)]
         public string CONDITION { get; set; }
-        public string EXTRAS { get; set; }
+        [StringLength(500)]
+        public string CONNECTION { get; set; }
+        [StringLength(50)]
+        public string CONNECTION_NAME { get; set; }
+        [StringLength(50)]
+        public string CONNECTION_TYPE { get; set; }
+        [StringLength(50)]
+        public string TYPE_NAME { get; set; }
         public int FLAG { get; set; }
     }
 }
