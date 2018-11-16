@@ -1,3 +1,0 @@
-Enable-Migrations
-add-migration InitialCreate
-update-database
