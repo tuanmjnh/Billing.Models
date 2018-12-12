@@ -77,6 +77,7 @@
   <ItemGroup>
     <Compile Include="Base\Connection.cs" />
     <Compile Include="Base\DB_DUONGTHU_BKN.cs" />
+    <Compile Include="Base\DATCOC.cs" />
     <Compile Include="Base\DONVI_BKN.cs" />
     <Compile Include="Base\ACCOUNT_JSON.cs" />
     <Compile Include="Base\QUAN_HUYEN_BKN.cs" />

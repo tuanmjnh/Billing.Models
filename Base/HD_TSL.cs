@@ -70,7 +70,7 @@ namespace Billing.Models
         public string MS_THUE { get; set; }
         [StringLength(256)]
         public string BANKNUMBER { get; set; }
-        public int DONVIQL_ID { get; set; }
+        public int DONVI_ID { get; set; }
         [StringLength(128)]
         public string MA_DVI { get; set; }
         [StringLength(128)]

@@ -15,12 +15,12 @@ namespace Billing.Models
         [StringLength(256)]
         public string ACCOUNT { get; set; }
         [StringLength(256)]
-        public string TEN_GOICUOC { get; set; }
-        public int LOAIGOICUOC_ID { get; set; }
+        public string MA_GOI { get; set; }
+        public int GOI_ID { get; set; }
+        public int LOAITB_ID { get; set; }
         public int DICHVUVT_ID { get; set; }
-        public int LOAIMAY_ID { get; set; }
-        public int GOICUOC_ID { get; set; }
-        public DateTime? NGAY_BD { get; set; }
+        public int NHOMTB_ID { get; set; }
+        public DateTime? NGAY_DK { get; set; }
         public DateTime? NGAY_KT { get; set; }
         public int DUPE_COUNT { get; set; }
         public int DUPE_FLAG { get; set; }
