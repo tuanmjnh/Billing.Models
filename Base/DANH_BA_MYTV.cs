@@ -9,12 +9,16 @@ namespace Billing.Models
     [Table("DANH_BA_MYTV")]
     public partial class DANH_BA_MYTV
     {
+        public int KHACHHANG_ID { get; set; }
+        public int THANHTOAN_ID { get; set; }
+        public int THUEBAO_ID { get; set; }
         public string MA_TB { get; set; }
         public string TEN_TT { get; set; }
         public string DIACHI_TT { get; set; }
         public string SO_DT { get; set; }
         public int TRANGTHAITB_ID { get; set; }
         public int DONVI_ID { get; set; }
+        public int DONVITC_ID { get; set; }
         public int DOITUONG_ID { get; set; }
         public string MST { get; set; }
         public string PHUONG_ID { get; set; }

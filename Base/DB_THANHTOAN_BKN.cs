@@ -11,35 +11,24 @@ namespace Billing.Models
         public Guid ID { get; set; }
         public int TYPE_BILL { get; set; }
         public int KHACHHANG_ID { get; set; }
-        [StringLength(256)]
         public string MA_KH { get; set; }
         public int THANHTOAN_ID { get; set; }
-        [StringLength(256)]
-        public string MA_TT_HNI { get; set; }
-        [StringLength(256)]
-        public string ACCOUNT { get; set; }
-        [StringLength(256)]
+        public string MA_TT { get; set; }
+        //public string ACCOUNT { get; set; }
+        public int THUEBAO_ID { get; set; }
         public string MA_TB { get; set; }
-        [StringLength(512)]
         public string TEN_TT { get; set; }
-        [StringLength(1024)]
         public string DIACHI_TT { get; set; }
-        [StringLength(256)]
         public string DIENTHOAI { get; set; }
-        [StringLength(256)]
         public string MS_THUE { get; set; }
-        [StringLength(256)]
         public string BANKNUMBER { get; set; }
-        public int DONVI_ID { get; set; }
-        [StringLength(128)]
         public string MA_DVI { get; set; }
-        [StringLength(128)]
+        public int DONVI_ID { get; set; }
+        public int DONVI_QL_ID { get; set; }
+        public int DONVITC_ID { get; set; }
         public string MA_CBT { get; set; }
-        [StringLength(128)]
         public string MA_TUYEN { get; set; }
-        [StringLength(512)]
         public string CUSTCATE { get; set; }
-        [StringLength(256)]
         public string STK { get; set; }
         public int MA_DT { get; set; }
         public int? KHLON_ID { get; set; }

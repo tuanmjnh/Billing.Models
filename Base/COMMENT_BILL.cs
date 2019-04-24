@@ -9,9 +9,9 @@ namespace Billing.Models
     {
         [Dapper.Contrib.Extensions.ExplicitKey]
         public Guid ID { get; set; }
-        public DateTime TIME_BILL { get; set; }
+        public int KYHOADON { get; set; }
         [StringLength(256)]
-        public string MA_TT_HNI { get; set; }
+        public string MA_TT { get; set; }
         [StringLength(128)]
         public string ROOT_ID { get; set; }
         [StringLength(128)]

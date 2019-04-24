@@ -9,12 +9,8 @@ namespace Billing.Models
     {
         [Dapper.Contrib.Extensions.ExplicitKey]
         public Guid ID { get; set; }
-        public DateTime TIME_BILL { get; set; }
-        [StringLength(256)]
+        public int KYHOADON { get; set; }
         public string MA_TB { get; set; }
-        [StringLength(256)]
-        public string ACCOUNT { get; set; }
-        [StringLength(256)]
         public string MA_GOI { get; set; }
         public int GOI_ID { get; set; }
         public int LOAITB_ID { get; set; }
@@ -30,9 +26,7 @@ namespace Billing.Models
         public int TH_SO_NGAY { get; set; }
         public int FIX { get; set; }
         public int EXTRA_TYPE { get; set; }
-        [StringLength(1024)]
         public string DETAILS { get; set; }
-		[StringLength(1024)]
 		public string EXTRAS { get; set; }
         public int FLAG { get; set; }
     }

@@ -9,25 +9,19 @@ namespace Billing.Models
     {
         [Dapper.Contrib.Extensions.ExplicitKey]
         public Guid ID { get; set; }
+        public int KYHOADON { get; set; }
         public Guid DBKH_ID { get; set; }
         public int TYPE_BILL { get; set; }
-        public DateTime TIME_BILL { get; set; }
         public int MAPHO_ID { get; set; }
         public int THANHTOAN_ID { get; set; }
         public int THUEBAO_ID { get; set; }
-        [StringLength(256)]
-        public string ACCOUNT { get; set; }
-        [StringLength(256)]
         public string MA_TB { get; set; }
         public int DOITUONG_ID { get; set; }
-        [StringLength(512)]
         public string TOC_DO { get; set; }
-        [StringLength(1024)]
         public string GHICHU { get; set; }
         public int TT_THANG { get; set; }
         public int NGAY_TB { get; set; }
         public int LOAIHINHTB_ID { get; set; }
-        [StringLength(256)]
         public string MA_LHTB { get; set; }
         public int? TRANGTHAITB_ID { get; set; }
         public int? TTHD_ID { get; set; }
@@ -59,7 +53,7 @@ namespace Billing.Models
         [StringLength(256)]
         public string MA_KH { get; set; }
         [StringLength(256)]
-        public string MA_TT_HNI { get; set; }
+        public string MA_TT { get; set; }
         [StringLength(512)]
         public string TEN_TT { get; set; }
         [StringLength(1024)]

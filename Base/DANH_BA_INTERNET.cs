@@ -9,6 +9,9 @@ namespace Billing.Models
     [Table("DANH_BA_INTERNET")]
     public partial class DANH_BA_INTERNET
     {
+        public int KHACHHANG_ID { get; set; }
+        public int THANHTOAN_ID { get; set; }
+        public int THUEBAO_ID { get; set; }
         public string MA_KH { get; set; }
         public string MST { get; set; }
         public string MA_CBT { get; set; }
@@ -17,6 +20,7 @@ namespace Billing.Models
         public string PHUONG_ID { get; set; }
         public int KHLON_ID { get; set; }
         public int DONVI_ID { get; set; }
+        public int DONVITC_ID { get; set; }
         public string MA_TB { get; set; }
         public int CUOC_YTE { get; set; }
         public int CUOC_DV { get; set; }
